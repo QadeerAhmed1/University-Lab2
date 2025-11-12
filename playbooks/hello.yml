@@ -1,0 +1,8 @@
+---
+- name: My First Ansible Playbook
+  hosts: local
+  gather_facts: false
+  tasks:
+    - name: Print a welcome message
+      debug:
+        msg: "Hello! Ansible is working perfectly on my DevOps environment."
